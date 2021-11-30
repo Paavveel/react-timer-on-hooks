@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-timer-on-hooks/static/css/main.a617e044.chunk.css",
+    "main.js": "/react-timer-on-hooks/static/js/main.04110e5f.chunk.js",
+    "main.js.map": "/react-timer-on-hooks/static/js/main.04110e5f.chunk.js.map",
+    "runtime-main.js": "/react-timer-on-hooks/static/js/runtime-main.71a11c5e.js",
+    "runtime-main.js.map": "/react-timer-on-hooks/static/js/runtime-main.71a11c5e.js.map",
+    "static/js/2.4ffd70c1.chunk.js": "/react-timer-on-hooks/static/js/2.4ffd70c1.chunk.js",
+    "static/js/2.4ffd70c1.chunk.js.map": "/react-timer-on-hooks/static/js/2.4ffd70c1.chunk.js.map",
+    "index.html": "/react-timer-on-hooks/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/react-timer-on-hooks/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.4ffd70c1.chunk.js.LICENSE.txt": "/react-timer-on-hooks/static/js/2.4ffd70c1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71a11c5e.js",
+    "static/js/2.4ffd70c1.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.04110e5f.chunk.js"
+  ]
+}
