@@ -33,7 +33,7 @@ const App = () => {
   useEffect(() => {
     if (isCounting) {
       timerIdRef.current = setInterval(() => {
-        setCount((prevCont) => prevCont + 1);
+        setCount(prevCont => prevCont + 1);
       }, 1000);
     }
 
@@ -45,11 +45,23 @@ const App = () => {
 
   return (
     <div className='App'>
-      <h1>React Timer</h1>
-      <h2>{count}</h2>
-      <div>
-        <button onClick={onStartStop}>{isCounting ? 'Stop' : 'Start'}</button>
-        <button onClick={handleReset}>Reset</button>
+      <div className='timer-container'>
+        <h1>React Timer</h1>
+        <h2>{count}</h2>
+        <div className='btns-container '>
+          <a
+            className='waves-effect waves-light btn-large'
+            onClick={onStartStop}
+          >
+            {isCounting ? 'Stop' : 'Start'}
+          </a>
+          <a
+            className='waves-effect waves-light btn-large'
+            onClick={handleReset}
+          >
+            Reset
+          </a>
+        </div>
       </div>
     </div>
   );
